@@ -1,0 +1,32 @@
+Course 1: Guided Tour of ML in Finance
+	Module 1:
+		Quiz 1: 
+		
+		1. Data Science uses statistics and ML to monetize information in data.
+			Wrong: Machine Intelligence aims at a symbiosis of AI and human intelligence.
+			Machine Learning (ML) is a sub-field of AI that teaches computers to perform tasks from experience.
+			Artificial Intelligence (AI) deals with machines that achieve a human-level performance at specific tasks such as face or speech recognition, machine translation, credit approvals, etc.
+			
+		2. A rational AI agent should select actions that are expected to maximize its performance measure.
+			AI studies intelligent agents that perceive their environment and perform actions to solve tasks that involve mimicking cognitive functions of humans.
+			AI agents can perceive a physical environment in real time via sensors, or by reading digital data collected from an environment.
+			
+		3. The goal of learning is the ability to generalize from data.
+		4. Machine Learning deals with both probabilistic and non-probabilistic methods.
+			Scalability of Machine Learning methods is often a major concern in industrial applications.
+			
+		5. Reinforcement Learning is in a sense an intermediate case between Supervised and Unsupervised Learning, as some feedback about right actions is available, but it is incomplete.
+			Most of available data for Machine Learning is unsupervised data.
+			
+		6. The difference between (direct) Reinforcement Learning and Inverse Reinforcement Learning is that in the latter case, there is no information about rewards received by the agent.
+			Clustering could also be thought as a special type of Representation Learning when the output space is a discrete set.
+			Both clustering and classification construct a map of a multi-dimensional input vector onto a discrete set of labels. The only difference is that for classification, there are class labels that make the problem an example of Supervised Learning, while clustering is an example of Unsupervised Learning.
+			
+		7. All types of Machine Learning algorithms can be implemented via neural networks, hence they offer a universal framework.
+		8. Reinforcement Learning is a suitable framework for portfolio optimization, even though it can also be done with Supervised Learning using some pre-specified models of the world.
+			Modeling corporate defaults is an exercise in Unsupervised Learning because we do not know the future.
+		
+		9. In Finance, expectations regarding the future are sometimes embedded in perception of today’s environment. If this future is influenced by actions of rational agents, Reinforcement Learning might be an appropriate framework.
+		10. Financial data is typically non-stationary.
+			In Finance, relevant data is often of a medium-to-large size.
+			The noise-to-signal ratio is typically higher for Financial data than for data used in Tech applications.
