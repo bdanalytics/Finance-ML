@@ -30,3 +30,18 @@ Course 1: Guided Tour of ML in Finance
 		10. Financial data is typically non-stationary.
 			In Finance, relevant data is often of a medium-to-large size.
 			The noise-to-signal ratio is typically higher for Financial data than for data used in Tech applications.
+			
+	Module 2:
+		Quiz 1:
+		1. The statement that no single Machine Learning model can be universally better than all other models on all domains.
+			The No Free Lunch theorem states that all classification algorithm have exactly the same out-of-sample error rate when averaged over all possible data.
+		
+		2. Try to bound somehow the values of model parameters, so the model outputs would vary less with a variation of the input data.
+		3. Over-fitting leads to small in-sample errors, but large out-of-sample errors.
+			Under-fitting is characterized by a high bias and a low variance.
+			
+		4. The square of the projection matrix is equal to the matrix itself.
+			The projection, or “hat” matrix projects the dependent variable in regression onto the predicted variable.
+			The projection matrix can be written as H = X X+ , where X is the Moore-Penrose matrix pseudo-inverse
+			
+		5. None of the above.
