@@ -45,3 +45,7 @@ Course 1: Guided Tour of ML in Finance
 			The projection matrix can be written as H = X X+ , where X is the Moore-Penrose matrix pseudo-inverse
 			
 		5. None of the above.
+		
+	Module 3:
+		Quiz 1:	
+		1. 
