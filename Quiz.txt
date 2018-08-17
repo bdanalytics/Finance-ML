@@ -48,4 +48,35 @@ Course 1: Guided Tour of ML in Finance
 		
 	Module 3:
 		Quiz 1:	
-		1. 
+		1. Logistic regression can be viewed as a Neural Network with just one sigmoid neuron.
+			Linear Regression can be viewed as a Neural Network with just one “linear neuron” (a node with a linear activation function).
+			Deep Neural Networks are obtained when there are more than two hidden layers.
+			
+		2. A good choice of the learning rate is important: if the learning rate is too small, it takes long for the algorithm to converge, but it if it too high, the algorithm may diverge.
+			Gradient Descent has one free parameter called the learning rate.
+			Making the learning rate variable (larger initially in the training, and smaller as the training progresses) may accelerate ML algorithms.
+			
+		3. Stochastic Gradient Descent attempts at a direct minimization of the generalization error, by producing samples from a data generating distribution in the form of mini-batches.
+		4. This is because the derivative by x of x squared equals 2x.
+		
+	Module 4:
+		Quiz 1:
+		1. Quantitative Analysis deals with probabilistic models that predict performance of securities and portfolios using pricing (market) data, as well as other data such as macro-economic data.
+			All types of Equity Analysis can be formulated in Machine Learning terms as problems of Regression, Classification, or density estimation.
+		2. Gross Margin is equal to Sales minus Cost of Goods Sold (COGS).
+			There are three major categories of features for Value investing: Profitability, Leverage/Liquidity, and Operating Efficiency.
+		3. The Evidence in Bayesian probability is the denominator in the Bayes’ rule. As it does not depend on Theta, it should not matter if all we want to do is to find the best value of Theta.
+		4. Minimization of the negative log-likelihood function within the MLE method is equivalent to minimization of the KL-divergence between the data and model distributions.
+			Linear Regression with a MSE error is equivalent to a Linear Probabilistic model with a constant Gaussian noise.
+			The KL-divergence is a measure of dissimilarity between two distributions. It is always non-negative, and is equal zero if p1(x) = p2(x)
+		5. None is correct.
+		6. The FDIC Call Report data is freely available to the public.
+			The FDIC assigns CAMELS ratings to all banks, and charges them insurance premia that depend on the assigned CAMELS rating.
+			The Federal Deposit Insurance Corporation (FDIC) provides insurance for deposits at US-based commercial banks.
+		7. In the Merton model, there is only one “predictor” d2 that depends only on the asset-to-debt ratio and asset volatility, but not on other balance sheet or income statement variables.
+			Financial institutions are more difficult to model than corporations because they have a higher leverage and a more complex debt structure.
+			
+			It arises because node n4 multiplies x by itself. Differentiation with respect to the first x gives the second x , but we can also differentiate the second x , which will produce the first x .
+		
+		5. The Backpropagation algorithm for Neural Networks amounts to Gradient Descent applied to a train error, with a reverse-mode autodiff for a recursive calculation of all derivatives.
+		 
